@@ -8,6 +8,6 @@ def get_name():
 def hello(context, name: str):
     context.log.info(f"Hello, {name}!")
 
-@jop
+@job
 def hello_dagster():
     hello(get_name())
