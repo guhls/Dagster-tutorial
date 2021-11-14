@@ -1,5 +1,9 @@
+# Biblioteca que possibilita a busca de arquivos em um caminho
 import requests
+
+# Conseguir manipular dados em arquivos CSV
 import csv
+
 from dagster import job, op
 
 @op
