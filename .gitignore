@@ -1,5 +1,5 @@
 .DS_Store
 env
-app/__pycache__
+dagster/__pycache__
 
 *.db
